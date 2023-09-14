@@ -37,7 +37,7 @@ function palabra_API() {
       //en caso de que haya un error en la API, utiliza el diccionario para sacar una palabra random
       console.log(error);
       palabra_api = diccionario[Math.floor(Math.random() * diccionario.length)];
-      console.log(palabra);
+      console.log(palabra_api);
     });
 }
 
